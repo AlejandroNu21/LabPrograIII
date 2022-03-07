@@ -9,13 +9,14 @@ package Entidades;
  * @author COREI5 10TH GEN
  */
 public class Persona {
+
     int Id;
     String Nombre;
     int Edad;
     String Email;
     String NumeroDeTelefono;
-    
-      public Persona() {
+
+    public Persona() {
     }
 
     public Persona(int Id) {
@@ -76,5 +77,5 @@ public class Persona {
     public void setNumeroDeTelefono(String NumeroDeTelefono) {
         this.NumeroDeTelefono = NumeroDeTelefono;
     }
-    
+
 }
